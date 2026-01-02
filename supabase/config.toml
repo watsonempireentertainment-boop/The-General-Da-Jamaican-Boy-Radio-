@@ -1,0 +1,28 @@
+project_id = "oqxfqkwxelcwqndenyzx"
+
+[functions.music-discovery]
+verify_jwt = true
+
+[functions.generate-news]
+verify_jwt = true
+
+[functions.auto-generate-news]
+verify_jwt = true
+
+[functions.generate-cover-art]
+verify_jwt = true
+
+[functions.auto-generate-covers]
+verify_jwt = false
+
+[functions.enhance-cover-art]
+verify_jwt = true
+
+[functions.soundcloud-import]
+verify_jwt = false
+
+[functions.send-newsletter]
+verify_jwt = true
+
+[functions.filter-explicit-content]
+verify_jwt = true
